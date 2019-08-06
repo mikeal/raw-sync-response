@@ -1,7 +1,7 @@
 {
   "name": "raw-sync-response",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.0.0-dev",
+  "description": "Block format for a sync request of an RSL block against a cache",
   "main": "index.js",
   "scripts": {
     "test": "nyc --check-coverage --branches 100 --functions 100 --lines 100 aegir test -t node browser",
@@ -19,5 +19,16 @@
   "dependencies": {
     "raw-sha-links": "^0.3.0",
     "varint": "^5.0.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeal/raw-sync-response.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mikeal/raw-sync-response/issues"
+  },
+  "homepage": "https://github.com/mikeal/raw-sync-response#readme"
 }
