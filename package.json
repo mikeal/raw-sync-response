@@ -1,0 +1,23 @@
+{
+  "name": "raw-sync-response",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --check-coverage --branches 100 --functions 100 --lines 100 aegir test -t node browser",
+    "pretest": "aegir lint"
+  },
+  "keywords": [],
+  "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (https://www.mikealrogers.com/)",
+  "license": "(Apache-2.0 AND MIT)",
+  "devDependencies": {
+    "aegir": "^20.0.0",
+    "digestif": "0.0.3",
+    "standard": "^13.1.0",
+    "tsame": "^2.0.1"
+  },
+  "dependencies": {
+    "raw-sha-links": "^0.3.0",
+    "varint": "^5.0.0"
+  }
+}
