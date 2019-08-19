@@ -1,5 +1,7 @@
 
 
+![8078](https://img.shields.io/badge/compiled%20bundle-8k-green) ![3065](https://img.shields.io/badge/gzipped%20bundle-3k-brightgreen)
+
 ## Format
 
 ```
